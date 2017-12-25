@@ -4,8 +4,6 @@ import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
 // //just get map
-// sdsds sd
-// as
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
@@ -37,14 +35,6 @@ export class CustomerService {
         console.log(err);
         return Observable.throw(err);
     }
-
-    // getCustomers() {
-    //     return [
-    //         { id: 1, name: 'abc' },
-    //         { id: 2, name: 'abc1' },
-    //         { id: 3, name: 'abc2' }
-    //     ];
-    // }
 }
 
 
